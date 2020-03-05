@@ -1,10 +1,10 @@
 # sensor-tag
 A sensor tag M2M network using atmega328p as a microcontroller and LORA RFM98 as a transmitter module to sense humidity and temperature. 
-# ATmega328PB Testing
+
 
 
 ## Hardware
-*  3.3V 8MHz (with ATmega328PB)
+*  3.3V 16MHz (with ATmega328P)
 * 3.3V RFM98 module
 * TI HDC2080 temperature and humidity sensor
 
