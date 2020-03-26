@@ -11,6 +11,7 @@ A sensor tag M2M network using atmega328p as a microcontroller and LORA RFM98 as
 *  3.3V 16MHz (with ATmega328P)
 * 3.3V RFM98 module
 * TI HDC2080 temperature and humidity sensor
+* ESP32
 
 ## Materials
 * Arduino code with sleep mode and the rfm connections.
