@@ -50,6 +50,16 @@ Finally, if you are sure no one else had the issue, follow the [ISSUE_TEMPLATE](
 
 ![Pin Functions](esp32_pinmap.png)
 
+### Arduino uno PINMAP
+
+![Pin Functions](Arduino-Uno-Pin-Diagram.png)
+### LORA RFM98 PINMAP
+
+![Pin Functions](lorawan_rfm95_arduino_large.jpg)
+### Arduino with HDC2080 PINMAP
+
+![Pin Functions](unnamed.png)
+
 
 ### Installation on Arduino IDE 1.8+
 
