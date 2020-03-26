@@ -16,11 +16,11 @@ A sensor tag M2M network using atmega328p as a microcontroller and LORA RFM98 as
 * Arduino code with sleep mode and the rfm connections.
 * Similar ESP32 code with sleep mode and transmission btu it consumes more power as compared to Arduino328p.
 * Reciever code.
-* HDC2080 Datasheet.
-* Rfm98 datasheet.
-* Arduino 328p Datasheet.
-* ESP32 Datasheet.
-* Li-Ion battery.
+* HDC2080 Datasheet.(http://www.ti.com/lit/ds/symlink/hdc2080.pdf)
+* Rfm98 datasheet.(https://cdn.sparkfun.com/assets/learn_tutorials/8/0/4/RFM95_96_97_98W.pdf)
+* Arduino 328p Datasheet.(http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)
+* ESP32 Datasheet.(https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
+* Li-Ion battery->18650mAh battery.(https://www.banggood.in/buy/18650-battery.html)
 
 ## Software
 
