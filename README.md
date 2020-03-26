@@ -1,4 +1,4 @@
-# sensor-tag
+# sensor-tag(arduino-hdc2080-rfm98-esp32
 A sensor tag M2M network using atmega328p as a microcontroller and LORA RFM98 as a transmitter module to sense humidity and temperature. 
 ## Main Features
 * This module will sense the data and send it to the gateway at aa predefined interval.
@@ -23,6 +23,33 @@ A sensor tag M2M network using atmega328p as a microcontroller and LORA RFM98 as
 * Li-Ion battery->18650mAh battery.(https://www.banggood.in/buy/18650-battery.html)
 
 ## Software
+### Installation Instructions
+- Using Arduino IDE Boards Manager (preferred)
+  + [Instructions for Boards Manager](docs/arduino-ide/boards_manager.md)
+- Using Arduino IDE with the development repository
+  + [Instructions for Windows](docs/arduino-ide/windows.md)
+  + [Instructions for Mac](docs/arduino-ide/mac.md)
+  + [Instructions for Debian/Ubuntu Linux](docs/arduino-ide/debian_ubuntu.md)
+  + [Instructions for Fedora](docs/arduino-ide/fedora.md)
+  + [Instructions for openSUSE](docs/arduino-ide/opensuse.md)
+- [Using PlatformIO](docs/platformio.md)
+- [Building with make](docs/make.md)
+- [Using as ESP-IDF component](docs/esp-idf_component.md)
+- [Using OTAWebUpdater](docs/OTAWebUpdate/OTAWebUpdate.md)
+
+### Decoding exceptions
+
+You can use [EspExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecoder) to get meaningful call trace.
+
+### Issue/Bug report template
+Before reporting an issue, make sure you've searched for similar one that was already created. Also make sure to go through all the issues labelled as [for reference](https://github.com/espressif/arduino-esp32/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3A%22for%20reference%22%20).
+
+Finally, if you are sure no one else had the issue, follow the [ISSUE_TEMPLATE](docs/ISSUE_TEMPLATE.md) while reporting any issue.
+
+### ESP32Dev Board PINMAP
+
+![Pin Functions](docs/esp32_pinmap.png)
+
 
 ### Installation on Arduino IDE 1.8+
 
