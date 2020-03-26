@@ -48,7 +48,7 @@ Finally, if you are sure no one else had the issue, follow the [ISSUE_TEMPLATE](
 
 ### ESP32Dev Board PINMAP
 
-![Pin Functions](docs/esp32_pinmap.png)
+![Pin Functions](esp32_pinmap.png)
 
 
 ### Installation on Arduino IDE 1.8+
