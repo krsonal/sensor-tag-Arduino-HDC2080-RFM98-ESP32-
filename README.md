@@ -1,4 +1,4 @@
-# sensor-tag(arduino-hdc2080-rfm98-esp32
+# sensor-tag(arduino-hdc2080-rfm98-esp32)
 A sensor tag M2M network using atmega328p as a microcontroller and LORA RFM98 as a transmitter module to sense humidity and temperature. 
 ## Main Features
 * This module will sense the data and send it to the gateway at aa predefined interval.
