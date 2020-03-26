@@ -61,7 +61,7 @@ Finally, if you are sure no one else had the issue, follow the [ISSUE_TEMPLATE](
 ![Pin Functions](unnamed.png)
 
 
-### Installation on Arduino IDE 1.8+
+#### Additional Installation on Arduino IDE 1.8+
 
 1. Add the following URL to the Arduino Boards Manager (*File->Preferences*).
    ```
