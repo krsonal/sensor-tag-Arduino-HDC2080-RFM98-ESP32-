@@ -67,9 +67,14 @@ Finally, if you are sure no one else had the issue, follow the [ISSUE_TEMPLATE](
 ### LORA RFM98 PINMAP
 
 ![Pin Functions](lorawan_rfm95_arduino_large.jpg)
+### ESP32 with RFM98 PINMAP
+
+![Pin Functions](LoRa_ESP32_Wiring.png)
+
 ### Arduino with HDC2080 PINMAP
 
 ![Pin Functions](unnamed.png)
+
 
 
 #### Additional Installation on Arduino IDE 1.8+
