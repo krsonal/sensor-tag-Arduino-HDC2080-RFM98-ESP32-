@@ -22,8 +22,18 @@ A sensor tag M2M network using atmega328p as a microcontroller and LORA RFM98 as
 * Arduino 328p Datasheet.(http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-7810-Automotive-Microcontrollers-ATmega328P_Datasheet.pdf)
 * ESP32 Datasheet.(https://www.espressif.com/sites/default/files/documentation/esp32_datasheet_en.pdf)
 * Li-Ion battery->18650mAh battery.(https://www.banggood.in/buy/18650-battery.html)
+## Programs attached(Arduino IDE Code)
+### Project 1
+* Arduino with battery status contains the code for Arduino328p with rfm98 and HDC2080 which senses the temp and humidity and the battery status and send it to the esp32rfm gateway.
+* ESP32 receiver RFM is the gateway code for Arduino sensor node.
 
-## Software
+### Project 2
+* BLE Sender is the ESP32 code to transmit data using inbuilt BLE in ESP32 to a BLE gateway
+* BLE Gateway is the BLE gateway program for esp32 BLE sender.
+
+
+
+# Software
 ### Installation Instructions
 - Using Arduino IDE Boards Manager (preferred)
   + [Instructions for Boards Manager](docs/arduino-ide/boards_manager.md)
@@ -46,7 +56,7 @@ You can use [EspExceptionDecoder](https://github.com/me-no-dev/EspExceptionDecod
 Before reporting an issue, make sure you've searched for similar one that was already created. Also make sure to go through all the issues labelled as [for reference](https://github.com/espressif/arduino-esp32/issues?utf8=%E2%9C%93&q=is%3Aissue%20label%3A%22for%20reference%22%20).
 
 Finally, if you are sure no one else had the issue, follow the [ISSUE_TEMPLATE](docs/ISSUE_TEMPLATE.md) while reporting any issue.
-
+## ALL connection:
 ### ESP32Dev Board PINMAP
 
 ![Pin Functions](esp32_pinmap.png)
